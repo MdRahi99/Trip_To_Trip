@@ -8,7 +8,7 @@ const Package = ({ pack }) => {
   return (
     <Link
       to={`/packages/${id}`}
-      className="p-2 outline outline-2 outline-slate-900 hover:bg-slate-900 hover:text-white mx-4 my-2"
+      className="p-4 hover:outline hover:outline-2 hover:outline-slate-900 bg-white text-slate-900 mx-4 my-2"
     >
       <div className="flex justify-between items-center">
         <div className="flex flex-col gap-3">

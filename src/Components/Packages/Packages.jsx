@@ -14,14 +14,14 @@ const Packages = () => {
   }, []);
 
   return (
-    <div className="my-12">
-      <div className="flex justify-center gap-6 items-center text-3xl">
+    <div className="my-12 bg-slate-300 p-4 mx-4">
+      <div className="flex justify-center gap-6 items-center text-slate-900 text-3xl">
         <TiArrowLeftOutline></TiArrowLeftOutline>
         <h1 className="text-center font-bold">Our Tour Packages</h1>
         <TiArrowRightOutline></TiArrowRightOutline>
       </div>
       
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-3 my-6">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 my-12">
         {packages.map((pack) => (
           <Package
             key={pack.id}
