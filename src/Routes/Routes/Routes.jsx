@@ -20,7 +20,7 @@ const router = createBrowserRouter([
         },
         {
             path: "/packages/:id",
-            loader: ({params}) => fetch(`http://localhost:5000/packages/${params.id}`),
+            loader: ({params}) => fetch(`https://trip-to-trip-server.vercel.app/packages/${params.id}`),
             element: <PackageDetails></PackageDetails>
         },
         {
